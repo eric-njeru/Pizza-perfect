@@ -29,3 +29,19 @@ function getReceipt() {
   getCrust(runningTotal,orderText,subtotalText)
 };
 
+function getCrust(runningTotal,orderText,subtotalText) {
+    var crustTotal = 0;
+    var selectedCrust;
+    var crustArray = document.getElementsByName("crust");
+    for (var j = 0; j < crustArray.length; j++) {
+        if (crustArray[j].checked) {
+            selectedCrust = crustArray[j].value;
+            orderText = orderText + selectedCrust + "<br>";
+        }
+        if (selectedCrust === "stuffed") {
+            crustTotal = 3;
+        }
+    }
+    runningTotal = (runningTotal + crustTotal);
+    subtotalText = subtotalText + crustTotal + "<br>";
+ 
