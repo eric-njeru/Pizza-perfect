@@ -123,3 +123,23 @@ function getVeggie(runningTotal,orderText,subtotalText) {
     }
     getCheese(runningTotal,orderText,subtotalText);
 };
+
+function getCheese(runningTotal,orderText,subtotalText) {
+    var cheeseTotal = 0;
+    var selectedCheese = [];
+    var cheeseArray = document.getElementsByName("cheese");
+    for (var j = 0; j < cheeseArray.length; j++) {
+        if (cheeseArray[j].checked) {
+            selectedCheese = cheeseArray[j].value;
+        }
+        if (selectedCheese === "extra") {
+            cheeseTotal = 3;
+        }
+    }
+    runningTotal = (runningTotal + cheeseTotal);
+    subtotalText = subtotalText+cheeseTotal+"<br>";
+    orderText = orderText+selectedCheese+"<br>";
+    document.getElementById("showOrderText").innerHTML=orderText;
+    document.getElementById("showSubtotalText").innerHTML=subtotalText;
+    document.getElementById("totalPrice").innerHTML = "</h3>$"+runningTotal+".00"+"</h3>";
+};
