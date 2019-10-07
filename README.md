@@ -5,7 +5,7 @@
 Eric Njeru
 
 ## Description
-This projects is about a virtual online pizza store that takes the orders of their clients and gives them opportunity to choose the specifics on the size of pizza, the crust choice, the topping selection and number of pizza they would love to order.
+This projects is about a virtual online pizza store that takes the orders of their clients and gives them opportunity to choose the specifics on the size of pizza, sauce choice, the crust choice, the topping selection and number of pizza they would love to order.
 
 ## Setup requirements:
 * Web browser(Chrome, Opera, Firefox web browser)
