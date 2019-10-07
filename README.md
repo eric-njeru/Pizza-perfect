@@ -2,7 +2,7 @@
  Pizza Perfect
 
 ## Author name
-Eric Njeru
+**_Eric Njeru_**
 
 ## Description
 This projects is about a virtual online pizza store that takes the orders of their clients and gives them opportunity to choose the specifics on the size of pizza, sauce choice, the crust choice, the topping selection and number of pizza they would love to order.
