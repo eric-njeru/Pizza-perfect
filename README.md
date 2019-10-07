@@ -27,13 +27,11 @@ To start using this project use the following commands:
 
 | Input | Behavior | Output        |
 | ---------------------- | ----------------------------- | ---------------------- |
-| Visit Mwanza-PIZZA-INN site | The home page displays | Welcome to Mwanza-PIZZA-INN |        
+| Visit Pizza Perfect site | The home page displays | Pizza Perfect - Pizza in the Perfect Picture|        
 |  | The Home page displays  | Types of Pizzas available |
 | Size of pizza | The size is selected | Small,Medium, Large |
 | Crust | The crust is displayed | Crispy, Stuffed, Gluten-free |
 | Topping | The tops are displayed | Bacon, Meat, Veggie, Pepperoni |
-| Delivery | It displays whether to be delivered or not | YES OR NO |
-| Delivery YES | Alert to add your location | Specified location |
 | Submit | Total | The Total cost is displayed |
 
 ## Link to my live website 
