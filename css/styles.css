@@ -82,7 +82,7 @@ h1 {
 /*buttons*/
 #msform .action-button, #msform button {
 	width: 100px;
-	background: #C14242;
+	background: rgb(7, 235, 18);
 	font-weight: bold;
 	color: white;
 	border: 0 none;
@@ -95,6 +95,37 @@ h1 {
 #msform .action-button:hover, #msform .action-button:focus, #msform button:hover {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
+a.button {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px 6px;
+
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: buttontext;
+
+    border: 2px outset buttonface;
+    border-image: initial;
+
+    background-color: rgb(21, 70, 206); 
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    cursor: default;
+}
+
+a.button:active {border-style: inset;}
+
 /*headings*/
 .fs-title, h2 {
 	font-size: 18px;
@@ -105,8 +136,8 @@ h1 {
 }
 .fs-subtitle {
 	font-weight: normal;
-	font-size: 13px;
-	color: #666;
+	font-size: 24px;
+	color:#EEE8AA;
 	margin-bottom: 20px;
 }
 
