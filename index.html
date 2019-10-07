@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/docs.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Pizza Perfect</title>
+</head>
+<body>
+ <!-- multistep form -->   
+ <form action="" id="msform">
+    <h1>Pizza in the Sky</h1>
+    <!-- progressbar -->
+        <ul id="progressbar">
+          <li class="active">Size</li>
+          <li>Crust</li>
+          <li>Sauce</li>
+          <li>Toppings</li>
+          <li>Verify Order</li>
+          <li>Contact</li>
+        </ul>
+    <!-- fieldsets -->
+    <fieldset class="step-one">
+        <h2 class="fs-title">Size</h2>
+        <h3 class="fs-subtitle">Select your pizza size.</h3>
+        <div>
+          <input type="radio" id="personalSize" name="size" value="personal" checked/>
+          <label for="personalSize">Personal (Ksh 599)</label>
+        </div>
+        <div>
+          <input type="radio" id="mediumSize" name="size" value="medium"/>
+          <label for="mediumSize">Medium (Ksh 999)</label>
+        </div>
+        <div>
+          <input type="radio" id="largeSize" name="size" value="large"/>
+          <label for="largeSize">Large (Ksh 1299)</label>
+        </div>
+        <div>
+          <input type="radio" id="xlargeSize" name="size" value="xlarge"/>
+          <label for="xlargeSize">Extra Large (Ksh 1599)</label>
+        </div>
+        <input type="button" name="next" class="next action-button" value="Next" />
+      </fieldset>
+    
+</body>
+</html>
