@@ -177,6 +177,25 @@
           <input type="button" name="previous" class="previous action-button" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" onclick="getReceipt()" />
      </fieldset>
-
+     <fieldset class="step-five">
+            <h2 class="fs-title">Order Summary</h2>
+            <h3 class="fs-subtitle">Verify your order.</h3>
+            <!--<input type="button" name="verify" class="verify action-button" value="Verify"/>-->
+            <br>
+            <div id="cart">
+              <div class="col-md-6">
+                <h2>Your Order</h2>
+                <div id="showOrderText"></div><br>
+              </div>
+              <div class="col-md-6">
+                <h2>Subtotal</h2>
+                <div id="showSubtotalText"></div><br>
+                <div id="totalPrice"></div>
+              </div>
+            </div>
+            <input type="button" name="previous" class="previous action-button" value="Previous" />
+            <input type="button" name="next" class="next action-button" value="Next" />
+          </fieldset>
+        
 </body>
 </html>
