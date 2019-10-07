@@ -44,4 +44,4 @@ function getCrust(runningTotal,orderText,subtotalText) {
     }
     runningTotal = (runningTotal + crustTotal);
     subtotalText = subtotalText + crustTotal + "<br>";
- 
+  
