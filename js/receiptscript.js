@@ -141,5 +141,5 @@ function getCheese(runningTotal,orderText,subtotalText) {
     orderText = orderText+selectedCheese+"<br>";
     document.getElementById("showOrderText").innerHTML=orderText;
     document.getElementById("showSubtotalText").innerHTML=subtotalText;
-    document.getElementById("totalPrice").innerHTML = "</h3>$"+runningTotal+".00"+"</h3>";
+    document.getElementById("totalPrice").innerHTML = "</h3>Ksh "+runningTotal+"00.00"+"</h3>";
 };
