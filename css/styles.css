@@ -118,7 +118,8 @@ h1 {
 	margin-bottom: 20px;
 }
 /*progressbar*/				/*	!!!! Disabled background-color:#fff; in bootstrap.min.css
-									So that progress bar would work !!!!!!! */
+                                    So that progress bar would work !!!!!!! */
+                                    
 #progressbar {
 	width: 100%;
 	margin: 0 0 30px 38px;
