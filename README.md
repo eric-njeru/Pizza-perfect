@@ -1,4 +1,4 @@
- Project Title
+## Project Title
  Pizza Perfect
 
 # Author name
@@ -29,9 +29,11 @@ To start using this project use the following commands:
 | ---------------------- | ----------------------------- | ---------------------- |
 | Visit Pizza Perfect site | The home page displays | Pizza Perfect - Pizza in the Perfect Picture|        
 |  | The Home page displays  | Types of Pizzas available |
-| Size of pizza | The size is selected | Small,Medium, Large |
-| Crust | The crust is displayed | Crispy, Stuffed, Gluten-free |
-| Topping | The tops are displayed | Bacon, Meat, Veggie, Pepperoni |
+| Size of pizza | The size is selected | Personal,Medium, Large, Extra Large |
+| Crust | The crust is displayed | Plain, Garlic, Spicy, Stuffed, Special, Gluten-free |
+| Sauce | The sauce is displayed | Marinara Sauce, White Sauce, Barbeque Sauce, No Sauce| 
+| Topping | The toppingss are displayed | Pepperoni, Sausage, Bacon, Ground Beef, Anchovy, Chicken|
+Tomatoes, Onions, Olives, Green Peppers, Mushrooms, Pineapple, Spinach, Jalapeno| 
 | Submit | Total | The Total cost is displayed |
 
 ## Link to my live website 
