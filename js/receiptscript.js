@@ -91,3 +91,35 @@ function getMeat(runningTotal,orderText,subtotalText) {
     }
     getVeggie(runningTotal,orderText,subtotalText);
 };
+
+function getVeggie(runningTotal,orderText,subtotalText) {
+    var veggieTotal = 0;
+    var selectedVeggie = [];
+    var veggieArray = document.getElementsByName("veggies");
+    for (var j = 0; j < veggieArray.length; j++) {
+        if (veggieArray[j].checked) {
+            selectedVeggie.push(veggieArray[j].value);
+        }
+    }
+    var veggieCount = selectedVeggie.length;
+    if (veggieCount > 1) {
+        veggieTotal = (veggieCount - 1);
+    } else {
+        veggieTotal = 0;
+    }
+    runningTotal = (runningTotal + veggieTotal);
+    for (var j = 0; j < selectedVeggie.length; j++) {
+            orderText = orderText+selectedVeggie[j]+"<br>";
+            if (veggieCount <= 1) {
+                subtotalText = subtotalText + 0 + "<br>";
+                veggieCount = veggieCount - 1;
+            } else if (veggieCount == 2) {
+                subtotalText = subtotalText + 1 + "<br>";
+                veggieCount = veggieCount - 1;
+            } else {
+                subtotalText = subtotalText + 1 + "<br>";
+                veggieCount = veggieCount - 1;
+            }
+    }
+    getCheese(runningTotal,orderText,subtotalText);
+};
