@@ -37,8 +37,8 @@ To start using this project use the following commands:
 | Submit | Total | The Total cost is displayed |
 
 ## Link to my live website 
-[Pizza-Perfect Live Link](https://eric-njeru.github.io/Pizza-place-/)
-[Github Link](https://https://github.com/eric-njeru/Pizza-place-.git)
+* [Pizza-Perfect Live Link](https://eric-njeru.github.io/Pizza-place-/)
+* [Github Link](https://https://github.com/eric-njeru/Pizza-place-.git)
 
 ### Contact information
 * In case of any issues contact me at nericokush@gmail.com
