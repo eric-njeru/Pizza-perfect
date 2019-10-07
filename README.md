@@ -2,7 +2,7 @@
  Pizza Perfect
 
 ## Author name
-# Eric Njeru
+Eric Njeru
 
 ## Description
 This projects is about a virtual online pizza store that takes the orders of their clients and gives them opportunity to choose the specifics on the size of pizza, the crust choice, the topping selection and number of pizza they would love to order.
@@ -32,8 +32,8 @@ To start using this project use the following commands:
 | Size of pizza | The size is selected | Personal,Medium, Large, Extra Large |
 | Crust | The crust is displayed | Plain, Garlic, Spicy, Stuffed, Special, Gluten-free |
 | Sauce | The sauce is displayed | Marinara Sauce, White Sauce, Barbeque Sauce, No Sauce| 
-| Topping | The toppingss are displayed | Pepperoni, Sausage, Bacon, Ground Beef, Anchovy, Chicken|
-Tomatoes, Onions, Olives, Green Peppers, Mushrooms, Pineapple, Spinach, Jalapeno| 
+| Topping | The toppings are displayed | Pepperoni, Sausage, Bacon, Ground Beef, Anchovy, Chicken|
+| | |Tomatoes, Onions, Olives, Green Peppers, Mushrooms, Pineapple, Spinach, Jalapeno| 
 | Submit | Total | The Total cost is displayed |
 
 ## Link to my live website 
