@@ -23,7 +23,18 @@ To start using this project use the following commands:
 * JavaScript
 * jQuery
 
+## Behavior Driven Development.
 
+| Input | Behavior | Output        |
+| ---------------------- | ----------------------------- | ---------------------- |
+| Visit Mwanza-PIZZA-INN site | The home page displays | Welcome to Mwanza-PIZZA-INN |        
+|  | The Home page displays  | Types of Pizzas available |
+| Size of pizza | The size is selected | Small,Medium, Large |
+| Crust | The crust is displayed | Crispy, Stuffed, Gluten-free |
+| Topping | The tops are displayed | Bacon, Meat, Veggie, Pepperoni |
+| Delivery | It displays whether to be delivered or not | YES OR NO |
+| Delivery YES | Alert to add your location | Specified location |
+| Submit | Total | The Total cost is displayed |
 
 ## Link to my live website 
 [Pizza-Perfect Live Link](https://eric-njeru.github.io/Pizza-place-/)
